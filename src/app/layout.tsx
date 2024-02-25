@@ -3,8 +3,8 @@ import SessionProvider from './SessionProvider';
 // ----------------------------------------------------------------------
 
 export const metadata = {
-  title: 'Credimonto',
-  description:'Plataforma Credimonto',
+  title: 'EasyCredit',
+  description:'Plataforma EasyCredit',
   keywords: 'microcreditos, creditos, credit, debit, debito, finanzas, capital, prestamos, sencillo, formulario de datos, credimonto, microcréditos, préstamos, Colombia',
 }
 

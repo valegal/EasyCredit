@@ -43,7 +43,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Credimonto</title>
+        <title>EasyCredit</title>
       </Head>
       <HeaderUser key={refreshHeader ? 'refreshed' : 'not-refreshed'} />
       <Userdata/>
