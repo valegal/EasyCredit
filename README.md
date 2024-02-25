@@ -14,7 +14,7 @@ npm i -D @iconify/tailwind
 npm i -D daisyui@latest
 npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
 
-![5](https://github.com/valegal/EasyCredit/assets/99009069/ea7c9cee-ae5f-42ef-8336-867b6f16eec9)
 
+![5](https://github.com/valegal/EasyCredit/assets/99009069/10ec6289-09c4-45d8-9714-8ad6f6afbc51)
 
 
