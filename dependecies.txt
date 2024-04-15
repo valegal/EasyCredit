@@ -1,0 +1,9 @@
+npm i
+npm install firebase
+npm install sweetalert2
+npm install @heroicons/react
+npm install @headlessui/react
+npm install --save @iconify/react
+npm i -D @iconify/tailwind
+npm i -D daisyui@latest
+npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
