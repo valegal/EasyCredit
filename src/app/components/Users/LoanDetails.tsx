@@ -188,7 +188,7 @@ const LoanDetails: React.FC<LoanDetailsProps> = ({ amount, term, redirectToMain 
           variant="fullWidth"
           className="mb-8"
           style={{
-            backgroundImage: 'linear-gradient(to right, #4CAF50, #a4e786)',
+            backgroundImage: 'linear-gradient(to right, #130454, #2906c7)',
             height: '2px',
             borderRadius: '4px',
           }}
@@ -207,7 +207,7 @@ const LoanDetails: React.FC<LoanDetailsProps> = ({ amount, term, redirectToMain 
           <Button
             onClick={handleSolicitarCredito}
             variant="contained"
-            style={{ backgroundColor: '#131338', color: '#a4e786' }}
+            style={{ backgroundColor: '#2f0185', color: '#ffffff' }}
             color="primary"
           >
             Solicitar crédito

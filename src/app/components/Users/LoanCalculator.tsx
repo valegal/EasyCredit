@@ -14,7 +14,7 @@ const montserratFont = {
 
 const sliderStyle = {
   borderRadius: '30px',
-  color: '#88d466',
+  color: '#7f64f5',
   '& .MuiSliderThumb': {
     height: 100,
     width: 20,

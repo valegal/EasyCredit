@@ -218,7 +218,7 @@ const HeaderUser: React.FC = () => {
               </Link>
 
               <button
-                className="bg-white border-2 border-red-500 hover:bg-red-500 hover:text-white text-red-500 font-bold py-1 px-3 rounded ml-4 text-sm"
+                className="bg-white border-2 border-slate-100 hover:bg-red-500 hover:text-white text-indigo-500 font-bold py-1 px-3 rounded ml-4 text-sm"
                 onClick={() => signOut()}
               >
                 Salir 🚫
