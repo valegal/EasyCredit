@@ -276,7 +276,7 @@ const CurrentLoanInfo: React.FC = () => {
 
 
   return (
-    <div className="border p-4 rounded-md shadow-xl hover:shadow-credimonto-green hover:shadow-lg bg-white">
+    <div className="border p-4 rounded-md shadow-xl hover:shadow-blue-300 hover:shadow-lg bg-white mb-4">
       <Typography variant="h4" className="text-center text-2xl md:text-3xl font-bold text-gray-800 mb-8"
         style={{
           fontWeight: 'bold',

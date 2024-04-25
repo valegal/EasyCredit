@@ -77,7 +77,7 @@ const UserLoanList: React.FC = () => {
 
   // Renderizar el componente
   return (
-    <div className="bg-credimonto-green p-6 rounded-md shadow-md">
+    <div className="bg-indigo-600 p-6 rounded-md shadow-md">
       <Typography
   variant="h4"
   className="text-center mb-12"
