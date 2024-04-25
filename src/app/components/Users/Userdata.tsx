@@ -328,15 +328,15 @@ const handleRefreshUserData = () => {
                 </div>
               ) : (
                 <div className="flex items-center justify-center mt-4">
-                  <button onClick={handleUpdateInformation} className="bg-credimonto-blue text-credimonto-green hover:shadow-xl px-4 py-2 rounded update-information-button">
-                    Modificar tus datos de usuario
+                  <button onClick={handleUpdateInformation} className="bg-violet-800 text-white font-semibold hover:shadow-xl px-4 py-2 rounded update-information-button">
+                    Actualizar datos
                   </button>
                 </div>
               )}
             </div>
 
 
-            <div className="px-5 py-4 bg-credimonto-lightgreen rounded-lg flex items-center justify-between mt-2">
+            <div className="px-5 py-4 bg-blue-50 rounded-lg flex items-center justify-between mt-2">
               <div className="flex flex-col items-center justify-center mx-auto">
                 <div className="flex items-center">
                   <div className="flex-shrink-0">
@@ -354,7 +354,7 @@ const handleRefreshUserData = () => {
               {tabs.map(({ id, title }) => (
                 <div
                   key={id}
-                  className={`cursor-pointer px-6 py-2 mt-6 text-sm ${activeTabs.has(id) ? 'text-indigo-900 font-semibold decoration-emerald-100' : 'text-green-400'}`}
+                  className={`cursor-pointer px-6 py-2 mt-6 text-sm ${activeTabs.has(id) ? 'text-indigo-900 font-semibold decoration-emerald-100' : 'text-blue-400'}`}
                   onClick={(e) => handleTabClick(id, e)}
                 >
                   {title}

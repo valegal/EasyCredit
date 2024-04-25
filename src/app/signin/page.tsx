@@ -36,7 +36,7 @@ export default function Signin() {
 
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-sky-700 to-indigo-500">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-violet-800 to-sky-500">
       <div className="w-full max-w-md bg-white p-8 rounded-lg shadow-md">
         <div className="sm:mx-auto sm:w-full sm:max-w-md text-center">
           {/* Logo and Welcome Message */}

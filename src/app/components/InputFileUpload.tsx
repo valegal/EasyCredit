@@ -10,11 +10,11 @@ const theme = createTheme();
 
 const styles = {
   inputFileButton: {
-    backgroundColor: '#a4e786',
+    backgroundColor: '#a7cbfa',
     color: '#131338',
     '&:hover': {
       backgroundColor: '#131338',
-      color: '#a4e786',
+      color: '#a7cbfa',
     },
     display: 'flex',
     alignItems: 'center',

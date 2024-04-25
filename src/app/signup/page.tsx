@@ -107,7 +107,7 @@ export default function Signup() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-indigo-950 to-indigo-500">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-violet-800 to-sky-500">
       <div className="w-full max-w-md bg-white p-8 rounded-md shadow-md  my-6">
         <div className="text-center mb-4">
           <img

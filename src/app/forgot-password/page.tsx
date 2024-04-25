@@ -34,12 +34,12 @@ export default function ForgotPassword() {
 
   return (
     
-    <div className="flex min-h-screen justify-center items-center bg-gradient-to-r from-indigo-950 to-green-500">
+    <div className="flex min-h-screen justify-center items-center bg-gradient-to-r from-violet-800 to-sky-500">
       <div className="w-full max-w-sm bg-white p-8 rounded-md shadow-md">
         <div className="text-center mb-8">
           <img
             className="mx-auto h-32 w-auto"
-            src="/img/Logotipo-Invertido.webp"
+            src="/img/Logotipo Principal.png"
             alt="Your Company"
           />
           <h2 className="mt-4 text-2xl font-bold text-gray-800">Recupera tu contraseña</h2>

@@ -27,8 +27,8 @@ const DatePickerField: React.FC<{
     value={value}
     onChange={(e) => onChange(e.target.value)}
     disabled={disabled}
-    className="w-full mt-2 bg-white rounded focus:outline-none focus:border-gray-700 text-sm font-medium leading-none text-gray-700 border-1.5px-dashed border-a4e786"
-    style={{ border: '1.5px dashed #a4e786', padding: '8px', height: '42px' }}
+    className="w-full mt-2 bg-white rounded focus:outline-none focus:border-gray-700 text-sm font-medium leading-none text-gray-700 border-1.5px-dashed border-cab4fa"
+    style={{ border: '1.5px dashed #cab4fa', padding: '8px', height: '42px' }}
   />
 );
 
@@ -43,8 +43,8 @@ const SelectField: React.FC<{
       value={options.includes(value) ? value : ""}
       onChange={(e) => onChange(e.target.value)}
       disabled={disabled}
-      className="w-full mt-2 bg-white rounded focus:outline-none focus:border-gray-700 text-sm font-medium leading-none text-gray-700 border-1.5px-dashed border-a4e786"
-      style={{ border: '1.5px dashed #a4e786', padding: '8px', height: '42px' }}
+      className="w-full mt-2 bg-white rounded focus:outline-none focus:border-gray-700 text-sm font-medium leading-none text-gray-700 border-1.5px-dashed border-cab4fa"
+      style={{ border: '1.5px dashed #cab4fa', padding: '8px', height: '42px' }}
     >
       <option value=""> </option>
       {options.map((option) => (
@@ -189,7 +189,7 @@ const AccordionTab: React.FC<AccordionTabProps> = ({
           <div className="flex items-center justify-between">
             <div className="text-xl font-medium text-indigo-900">{title}</div>
             <div className={`collapse-arrow ${active ? 'transform rotate-180 text-primary' : 'text-gray-500'}`}>
-              <Icon icon="bxs:down-arrow" color="#a4e786" />
+              <Icon icon="bxs:down-arrow" color="#cab4fa" />
             </div>
           </div>
           <p className={`mt-2 text-sm ${active ? 'text-gray-600' : 'text-gray-900'}`}>{description}</p>
@@ -232,8 +232,8 @@ const AccordionTab: React.FC<AccordionTabProps> = ({
                         <input
                           type="text"
                           tabIndex={0}
-                          style={{ border: '1.5px dashed #a4e786', padding: '8px', height: '42px' }}
-                          className="w-full mt-2 bg-white rounded focus:outline-none focus:border-gray-600 text-sm font-medium leading-none text-gray-700 border-1.5px-dashed border-a4e786"
+                          style={{ border: '1.5px dashed #cab4fa', padding: '8px', height: '42px' }}
+                          className="w-full mt-2 bg-white rounded focus:outline-none focus:border-gray-600 text-sm font-medium leading-none text-gray-700 border-1.5px-dashed border-[#661fff]"
                           aria-labelledby={field.id}
                           placeholder={userData?.[field.id] ? '' : undefined}
                           value={userData?.[field.id] || ''}
