@@ -285,7 +285,7 @@ export default function Signup() {
               onChange={() => setTermsAccepted(!termsAccepted)}
             />
             <label htmlFor="termsCheckbox">
-            Acepto los <a href="https://www.credimonto.com/wp-content/uploads/2024/02/TERMINOS-Y-CONDICIONES.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">términos y condiciones.</a>
+            Acepto los <a href="https://drive.google.com/file/d/1zNZcH6QP6DdDO8w4ddymEYUGf2S3Ret0/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">términos y condiciones.</a>
             </label>
           </div>
 
@@ -296,8 +296,8 @@ export default function Signup() {
               onChange={() => setPrivacyPolicyAccepted(!privacyPolicyAccepted)}
             />
             <label htmlFor="privacyPolicyCheckbox">
-              Declaro que he leído y acepto la <a href="https://www.credimonto.com/wp-content/uploads/2024/02/POLITICA-PARA-LA-PROTECCION-Y-DE-TRATAMIENTO-DE-DATOS-PERSONALES-CREDIMONTO.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">política de protección de datos Personales</a>, así
-              mismo <a href="https://www.credimonto.com/wp-content/uploads/2024/02/AUTORIZACIÓN-DATOS-PERSONALES.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">autorizo expresamente</a> a Credimonto para que recolecte, almacene, use,
+              Declaro que he leído y acepto la <a href="https://drive.google.com/file/d/1zNZcH6QP6DdDO8w4ddymEYUGf2S3Ret0/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">política de protección de datos Personales</a>, así
+              mismo <a href="https://drive.google.com/file/d/1zNZcH6QP6DdDO8w4ddymEYUGf2S3Ret0/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">autorizo expresamente</a> a Credimonto para que recolecte, almacene, use,
               transfiera y/o elimine mis datos personales.
             </label>
           </div>

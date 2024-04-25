@@ -3,9 +3,7 @@
 ![6](https://github.com/valegal/EasyCredit/assets/99009069/2b6ce87b-cff9-4588-b598-13ce2c391fc1)
 
 npm i
-
 npm install firebase
-
 npm install sweetalert2
 npm install @heroicons/react
 npm install @headlessui/react
