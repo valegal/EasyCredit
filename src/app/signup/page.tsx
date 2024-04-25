@@ -107,24 +107,24 @@ export default function Signup() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-indigo-950 to-green-500">
-      <div className="w-full max-w-md bg-white p-8 rounded-md shadow-md">
-        <div className="text-center mb-8">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-indigo-950 to-indigo-500">
+      <div className="w-full max-w-md bg-white p-8 rounded-md shadow-md  my-6">
+        <div className="text-center mb-4">
           <img
             className="mx-auto h-12 w-auto"
-            src="/img/Logotipo-Invertido.webp"
+            src="/img/Perfiles2.webp"
             alt="Your Company"
           />
           <h3 className="mt-5 text-3xl font-bold text-indigo-950">Regístrate</h3>
         </div>
         
-        <div className="flex items-center mb-8 space-x-4">
+        <div className="flex items-center mb-4 space-x-4">
           <div className="border-t border-gray-300 flex-grow"></div>
           <p className="my-4 text-center text-sm text-gray-600">
             ¿Ya tienes una cuenta?{' '}
             <button
               onClick={() => router.push('/')}
-              className="font-semibold text-green-400 hover:text-green-500"
+              className="font-semibold text-indigo-500 hover:text-indigo-600"
             >
               Acceder
             </button>
@@ -297,7 +297,7 @@ export default function Signup() {
             />
             <label htmlFor="privacyPolicyCheckbox">
               Declaro que he leído y acepto la <a href="https://drive.google.com/file/d/1zNZcH6QP6DdDO8w4ddymEYUGf2S3Ret0/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">política de protección de datos Personales</a>, así
-              mismo <a href="https://drive.google.com/file/d/1zNZcH6QP6DdDO8w4ddymEYUGf2S3Ret0/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">autorizo expresamente</a> a Credimonto para que recolecte, almacene, use,
+              mismo <a href="https://drive.google.com/file/d/1zNZcH6QP6DdDO8w4ddymEYUGf2S3Ret0/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">autorizo expresamente</a> a EasyCredit para que recolecte, almacene, use,
               transfiera y/o elimine mis datos personales.
             </label>
           </div>
@@ -311,7 +311,7 @@ export default function Signup() {
 
             <button
               disabled={!email || !password || !passwordAgain || passwordRequirementsVisible || !termsAccepted || !privacyPolicyAccepted}
-              className="w-full mt-5 px-2 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600 focus:outline-none"
+              className="w-full mt-5 px-2 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 focus:outline-none"
             >
               Registrarme
             </button>

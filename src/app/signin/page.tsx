@@ -6,6 +6,7 @@ import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import Iconify from '../components/Iconify';
 import Swal from 'sweetalert2';
+import Image from 'next/image';
 
 export default function Signin() {
 
@@ -35,16 +36,18 @@ export default function Signin() {
 
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-indigo-950 to-green-500">
-      <div className="w-full max-w-md bg-white p-8 rounded-md shadow-md">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-sky-700 to-indigo-500">
+      <div className="w-full max-w-md bg-white p-8 rounded-lg shadow-md">
         <div className="sm:mx-auto sm:w-full sm:max-w-md text-center">
           {/* Logo and Welcome Message */}
-          <img
-            className="mx-auto h-48 w-auto"
-            src="img/Logo-Principal-para-fondos-claros.webp"
+          <Image
+            className="mx-auto w-auto"
+            src="/img/Perfiles2.webp"
             alt="Credimonto logo"
+            width="120"
+            height="120"
           />
-          <h2 className="mt-1 text-3xl font-bold text-indigo-950">¡Bienvenido a Credimonto!</h2>
+          <h2 className="mt-6 text-3xl font-bold text-indigo-950">¡Bienvenido a EasyCredit!</h2>
         </div>
 
         <div className="mt-10">
@@ -64,7 +67,7 @@ export default function Signin() {
                 autoComplete="email"
                 onChange={(e) => setEmail(e.target.value)}
                 required
-                className="block w-full rounded-lg border border-gray-100 bg-gray-100 py-3 px-3 text-gray-800 focus:outline-none focus:border-indigo-400 transition-all duration-200 ease-in-out hover:border-green-500"
+                className="block w-full rounded-lg border border-gray-100 bg-gray-100 py-3 px-3 text-gray-800 focus:outline-none focus:border-indigo-400 transition-all duration-200 ease-in-out hover:border-indigo-500"
               />
             </div>
 
@@ -83,7 +86,7 @@ export default function Signin() {
                 autoComplete="current-password"
                 onChange={(e) => setPassword(e.target.value)}
                 required
-                className="block w-full rounded-md border border-gray-100 bg-gray-100 py-3 px-3 text-gray-800 focus:outline-none focus:border-indigo-400 transition-all duration-300 ease-in-out hover:border-green-500"
+                className="block w-full rounded-md border border-gray-100 bg-gray-100 py-3 px-3 text-gray-800 focus:outline-none focus:border-indigo-400 transition-all duration-300 ease-in-out hover:border-violet-500"
               />
 
               {/* Toggle Password Visibility */}
@@ -98,7 +101,7 @@ export default function Signin() {
 
             {/* Forgot Password Link */}
             <div className="text-sm text-right">
-              <div onClick={() => router.push('/forgot-password')} className="cursor-pointer font-semibold text-green-500 hover:text-green-600">
+              <div onClick={() => router.push('/forgot-password')} className="cursor-pointer font-semibold text-indigo-400 hover:text-indigo-600">
                 ¿Olvidaste tu contraseña?
               </div>
             </div>
@@ -107,7 +110,7 @@ export default function Signin() {
             <button
               onClick={handleSignIn}
               disabled={!email || !password}
-              className="w-full px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600 focus:outline-none"
+              className="w-full px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 focus:outline-none"
             >
               Ingresar
             </button>
@@ -118,7 +121,7 @@ export default function Signin() {
             ¿No tienes cuenta?{' '}
             <button
               onClick={() => router.push('signup')}
-              className="font-semibold text-green-400 hover:text-green-500 underline"
+              className="font-semibold text-indigo-500 hover:text-indigo-600 underline"
             >
               Regístrate
             </button>
