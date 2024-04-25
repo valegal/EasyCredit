@@ -142,10 +142,10 @@ const HeaderUser: React.FC = () => {
         {/* Logo y nombre de la aplicación */}
         <div className="flex lg:flex-1 items-center space-x-3 rtl:space-x-reverse">
           <a href="/" className="flex items-center">
-            <img src="img/Logotipo-Principal.webp" className="h-8" alt="Flowbite Logo" />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              <span style={{ color: 'rgba(18,19,56,255)' }}>Credi</span>
-              <span style={{ color: 'rgba(165, 232, 135, 1)' }}>Monto</span>
+            <img src="img/Perfiles2.webp" className="h-8" alt="Flowbite Logo" />
+            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white ml-2">
+              <span style={{ color: 'rgb(0,150,255)' }}>Easy</span>
+              <span style={{ color: 'rgb(88,0,255)' }}>Credit</span>
             </span>
           </a>
         </div>
@@ -198,15 +198,15 @@ const HeaderUser: React.FC = () => {
 
               <Link href="/forgot-password" passHref>
                 <div title="" style={{ cursor: 'pointer' }}>
-                  <Icon icon="mingcute:user-4-fill" color="#0a0a0a" width="24" height="24" />
+                  <Icon icon="mingcute:user-4-fill" color="#30008a" width="24" height="24" />
                   <style jsx>{`
                     [title=""]:hover:after {
                       content: "Cambiar contraseña";
                       display: inline-block;
                       position: absolute;
                       padding: 8px;
-                      background-color: #131338;
-                      color: #a4e786;
+                      background-color: #72FFFF;
+                      color: #30008a;
                       font-size: 14px;
                       border-radius: 4px;
                       margin-top: 18px; /* Ajusta según sea necesario */
@@ -221,7 +221,7 @@ const HeaderUser: React.FC = () => {
                 className="bg-white border-2 border-red-500 hover:bg-red-500 hover:text-white text-red-500 font-bold py-1 px-3 rounded ml-4 text-sm"
                 onClick={() => signOut()}
               >
-                Cerrar sesión
+                Salir 🚫
               </button>
             </>
           )}
