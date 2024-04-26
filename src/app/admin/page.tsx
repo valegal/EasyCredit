@@ -44,10 +44,10 @@ const Admin = () => {
           <div>
           <div className="flex lg:flex-1 items-center space-x-3 rtl:space-x-reverse">
           <a href="/" className="flex items-center">
-            <img src="img/Logotipo-Principal.webp" className="h-8" alt="Flowbite Logo" />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              <span style={{ color: 'rgba(18,19,56,255)' }}>Credi</span>
-              <span style={{ color: 'rgba(165, 232, 135, 1)' }}>Monto</span>
+            <img src="img/Perfiles2.webp" className="h-8" alt="EasyCredit Logo" />
+            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white ml-2">
+            <span style={{ color: 'rgb(0,150,255)' }}>Easy</span>
+              <span style={{ color: 'rgb(88,0,255)' }}>Credit</span>
             </span>
             <h1  className='text-credimonto-blue font-bold text-3xl ml-4'> Administrador</h1>
             
@@ -68,7 +68,7 @@ const Admin = () => {
           <button
             onClick={() => setActiveTab('loans')}
             className={`py-2 px-4 rounded-md ${
-              activeTab === 'loans' ? 'bg-credimonto-blue text-credimonto-green' : 'bg-credimonto-green text-credimonto-blue'
+              activeTab === 'loans' ? 'bg-indigo-700 text-white' : 'bg-violet-200 text-indigo-900'
             }`}
           >
             Solicitudes de Crédito
@@ -76,7 +76,7 @@ const Admin = () => {
           <button
             onClick={() => setActiveTab('users')}
             className={`py-2 px-4 rounded-md ${
-              activeTab === 'users' ? 'bg-credimonto-blue text-credimonto-green' : 'bg-credimonto-green text-credimonto-blue'
+              activeTab === 'users' ? 'bg-indigo-700 text-white' : 'bg-violet-200 text-inidigo-900'
             }`}
           >
             Usuarios

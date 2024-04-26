@@ -74,7 +74,7 @@ const AdminUsersTable: React.FC = () => {
 
       <TableContainer component={Paper}>
         <Table>
-          <TableHead style={{ color: '#131338', backgroundColor: '#d6edcc' }}>
+        <TableHead style={{ color: '#5800FF', backgroundColor: '#def6ff' }}>
             <TableRow>
             <TableCell>ID de Usuario</TableCell>
             <TableCell>Nombres</TableCell>
@@ -91,7 +91,7 @@ const AdminUsersTable: React.FC = () => {
           </TableHead>
           <TableBody>
           {users
-        .filter(user => user.data.email !== 'admin@credimonto.com') // Filtrar el usuario con correo específico
+        .filter(user => user.data.email !== 'admin@easycredit.com') // Filtrar el usuario con correo específico
         .map((user) => (
         <TableRow key={user.userId}>
           <TableCell>{user.userId}</TableCell>

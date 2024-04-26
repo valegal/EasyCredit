@@ -140,7 +140,7 @@ const AdminLoanTable: React.FC = () => {
       </Grid>
       <TableContainer component={Paper}>
               <Table>
-              <TableHead style={{ color: '#131338', backgroundColor: '#d6edcc' }}>
+              <TableHead style={{ color: '#5800FF', backgroundColor: '#def6ff' }}>
                   <TableRow>
                     <TableCell>ID de Solicitud</TableCell>
                     <TableCell>Estado</TableCell>
