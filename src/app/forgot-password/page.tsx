@@ -69,7 +69,7 @@ export default function ForgotPassword() {
             <button
               onClick={() => resetEmail()}
               disabled={!email}
-              className="w-full px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600 focus:outline-none"
+              className="w-full px-4 py-2 bg-indigo-560 text-white rounded-md hover:bg-indigo-700 focus:outline-none"
             >
               Enviar correo electrónico
             </button>
